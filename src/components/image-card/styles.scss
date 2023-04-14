@@ -1,0 +1,27 @@
+$header-bgcolor: whitesmoke;
+
+.image-card-class {
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  
+  .image-card-header { 
+    background:$header-bgcolor;
+    align-content: space-evenly;
+  
+    .status, .repeat, .zoom, .cancel {
+      padding: 3px;
+      border: none;
+      display: inline;
+      visibility: hidden;
+    }
+    .shown {
+      visibility: visible;
+    }
+  }
+  .image {
+    border: none;
+  }
+}
